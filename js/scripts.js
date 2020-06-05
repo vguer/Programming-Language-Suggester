@@ -1,25 +1,26 @@
 $(document).ready(function() {
-  $("form#quiz").submit(function(event) {
-    let name = ("input#name").val ();
-    let gender = $("select#gender").val();
-    let age = parseInt($("input#age").val());
-    let favoriteSubject = parseInt($("#favotiresubject").val());
-    let musicGenre = $("input:radio[name=musicgenre]:checked").val();
-    let toothbrushColor = $("#color").val();
+  $("form#quiz").submit(function() {
+    event.preventDefault()
+    const musicgenre= $("input:radio[name=musicgenre]:checked").val();
+    const name= ("input#name").val ();
+    const gender= $("select#gender").val();
+    const age= parseInt($("input#age").val());
+    const favoriteSubject= parseInt($("#favotiresubject").val());
+    const toothbrushColor= $("#color").val();
 
     if (musicGenre === 'Unblackmetal') {
-      $('#Unblackmetal').show();
+      $('#Python').show();
     } else if (musicGenre === 'Medievalfolkrock') {
-      $('#Medievalfolkrock').show();
+      $('#Ruby').show();
     } else if (musicGenre === 'Shoegaze') {
-      $('#Shoegaze').show(); 
+      $('#JavaScript').show(); 
     } else if (musicGenre === 'Germanreggae') {
-      $('#Germanreggae').show();
+      $('#Ruby').show();
     } else if (musicGenre ==='Mathrock') {
-      $('#Germanreggae').show();
+      $('#JavaScript').show();
     } else (musicGenre === 'Regrass') 
-      $('#Redgrass').show();
-      
+      $('#Python').show();
+
       event.preventDefault()
     })
   

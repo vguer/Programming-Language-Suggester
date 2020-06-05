@@ -5,3 +5,7 @@
 #result {
   display: none;
 }
+
+#Ruby, #Python, #JavaScript {
+  display: none;
+}
