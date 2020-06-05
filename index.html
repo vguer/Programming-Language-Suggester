@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="container">
-      <h1> Programming Language Suggester </h1>
-      <p> If you've reached this page, I'd like to congratulate you for wanting to learn how to code. Coding allows us to use creative knowledge to find solutions to various problems. However, with so many languages out there, it can be challenging to pick one. If it's not already obvious, this survey was created by a professional coder with a passion to help people make difficult decisions. Answer the following questions honestly to find out which programming language is right for you. </p>
+      <h1>Programming Language Suggester</h1>
+      <p>If you've reached this page, I congratulate you for wanting to learn how to code. Coding allows us to use creative knowledge to find solutions to various problems. However, with so many languages out there, it can be challenging to pick one. If it's not already obvious, this survey was created by a professional coder with a passion to help people make difficult decisions. Answer the following questions honestly to find out which programming language is right for you. </p>
     
       <form id="quiz"></form>
         <label for="name">What is your name?</label>
@@ -23,12 +23,53 @@
           <option value="4">History</option>
           <option value="5">English</option>
           <option value="6">Physical Education</option>
+          <option value="7">I did not attend High School</option>
         </select>
 
   ` <div class="radio">
-        <labe for="musicgenre"> What is your <strong>preferred</strong> music genre? (Yes, we know you listen to <i>everything</i>)</label>
-          <input type="radio" name="musicgenre" value="Country" checked>
-          Country
-        
+      <p>Of these choices, what is your <strong>preferred</strong> music genre? (Yes, we know you listen to <i>everything</i>)</p>
+        <label>
+          <input type="radio" name="musicgenre" value="Unblackmetal" checked>
+          Unblack metal
+        </label>
     </div>
-  </div>
+    <div class="radio">
+        <label>
+        <input type="radio" name="musicgenre" value="mfr" checked>
+        Medieval Folk Rock
+        </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="musicgenre" value="Shoegaze" checked>
+        Shoegaze
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="musicgenre" value="Germanreggae" checked>
+        German Reggae
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="musicgenre" value="Mathrock" checked>
+        Math Rock (2 + 2 = shred, amirite)
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="musicgenre" value="Redgrass" checked>
+        Red Grass
+      </label>
+    </div>
+    <label for="gender"> What is your gender? </label>
+    <select id="gender">
+      <option value="Non-Binary">Non-Binary</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    <div class="form-group">
+      <label for="color">What color is your toothbrush? (Note: If you don't own a toothbrush, coding is not for you...)</label>
+      <input id="color" class="form-control" type="color">
+    </div>
