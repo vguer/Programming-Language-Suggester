@@ -23,51 +23,51 @@
         </select>
         <label for="age">At what age in your life were you the happiest?</label>
         <input id="age" type="text">
-        <label for="favoritesubject">What is your favoite subject?</label>
-        <select id="favoritesubject" class="form=control">
-          <option value="1">Art</option>
-          <option value="2">Math</option>
-          <option value="3">Science</option>
-          <option value="4">History</option>
-          <option value="5">English</option>
-          <option value="6">Physical Education</option>
-          <option value="7">Recess</option>
+        <label for="favorite-subject">What is your favorite subject?</label>
+        <select id="favorite-subject">
+          <option value="1" name=favoritesubject>Art</option>
+          <option value="2" name=favoritesubject>Math</option>
+          <option value="3" name=favoritesubject>Science</option>
+          <option value="4" name=favoritesubject>History</option>
+          <option value="5" name=favoritesubject>English</option>
+          <option value="6" name=favoritesubject>Physical Education</option>
+          <option value="7" name=favoritesubject>Recess</option>
         </select>
-
+        </div>
         <div class="radio">
           <p>Of these choices, what is your <strong>preferred</strong> music genre? (Yes, we know you listen to <i>everything</i>)</p>
           <label>
-            <input type="radio" name="musicgenre" value="Unblackmetal" checked>
+            <input type="radio" name="musicgenre" value="Unblackmetal">
             Unblack metal
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="musicgenre" value="Medievalfolkrock" checked>
+            <input type="radio" name="musicgenre" value="Medievalfolkrock">
             Medieval Folk Rock
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="musicgenre" value="Shoegaze" checked>
+            <input type="radio" name="musicgenre" value="Shoegaze">
             Shoegaze
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="musicgenre" value="Germanreggae" checked>
+            <input type="radio" name="musicgenre" value="Germanreggae">
             German Reggae
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="musicgenre" value="Mathrock" checked>
+            <input type="radio" name="musicgenre" value="Mathrock">
             Math Rock (2 + 2 = shred, amirite)
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="musicgenre" value="Redgrass" checked>
+            <input type="radio" name="musicgenre" value="Redgrass">
             Red Grass
           </label>
         </div>
@@ -81,10 +81,11 @@
     </form>
 
     <div id="result">
-      <p>Based on the information you submitted, these are the best programming languages for you: <span id="languages"></span></p>
-      <input id="Ruby">Ruby</input>
-      <input id="Python">Python</input>
-      <input id="JavaScript">JavaScript</input>
+      <p>Based on the information you submitted, these are the best programming languages for you: <span id="languages"></span>
+      <label id="Ruby">Ruby</label>
+      <label id="Python">Python</label>
+      <label id="JavaScript">JavaScript</label>
+      </p>
     </div>
     </div>
     </body>
