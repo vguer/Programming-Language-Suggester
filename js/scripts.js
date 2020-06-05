@@ -1,12 +1,11 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
-    const favoritesubject= parseInt($("#favorite-subject").val());
+    const favoritesubject= parseInt($("input#favorite-subject").val());
     const musicgenre= $("input:radio[name=musicgenre]:checked").val();
     const name= ("input#name").val();
     const gender= $("select#gender").val();
     const age= parseInt($("input#age").val());
     const color= $("#color").val();
-
 
     if (favoritesubject === 1) {
       $('#Python').show();
