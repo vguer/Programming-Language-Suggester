@@ -2,10 +2,6 @@
   display: block;
 }
 
-#Ruby, #Python, #JavaScript {
-  display: none;
-}
-
 #result {
   display: none;
 }

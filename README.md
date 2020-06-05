@@ -16,7 +16,7 @@ The purpose of this independent project is to create an application with a serie
 
 ## Known Bugs
 
-There are no known bugs.
+At the time of submission for this application, I was unable to load results after questions are answered and submitted.
 
 ## Support and contact details
 
