@@ -7,5 +7,20 @@ $(document).ready(function() {
     const musicGenre = $("input:radio[name=musicgenre]:checked").val();
     const toothbrushColor = $("#color").val();
 
-    const result = 
+    const result = musicGenre
+    if (musicGenre === 'Unblackmetal') {
+      $('#Unblackmetal').show();
+    } else if (musicGenre === 'Medievalfolkrock') {
+      $('#Medievalfolkrock').show();
+    } else if (musicGenre === 'Shoegaze') {
+      $('#Shoegaze').show(); 
+    } else if (musicGenre === 'Germanreggae') {
+      $('#Germanreggae').show();
+    } else if (musicGenre ==='Mathrock') {
+      $('#Germanreggae').show();
+    } else (musicGenre === 'Regrass') {
+      $('#Redgrass').show();
+    }
+    event.preventDefault()
   });
+});
