@@ -16,7 +16,8 @@ The purpose of this independent project is to create an application with a serie
 
 ## Known Bugs
 
-At the time of submission for this application, I was unable to load results after questions are answered and submitted.
+* At the time of initial submission for this application on 6/5/2020, I was unable to load results after questions are answered and submitted.
+* As of 6/7/2020, the application is de-bugged and will show results based on user input. 
 
 ## Support and contact details
 
