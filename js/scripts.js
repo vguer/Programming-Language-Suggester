@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     let favoritesubject = parseInt($("#favorite-subject").val());
     const musicgenre = $("input:radio[name=musicgenre]:checked").val();
-    const name = ("input#name").val();
+    const name = ($("input#name").val());
     const gender = $("select#gender").val();
     const age = parseInt($("input#age").val());
     const color = $("#color").val();
