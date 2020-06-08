@@ -2,9 +2,9 @@
   display: block;
 }
 
-#result {
+#Python, #JavaScript, #Ruby {
   display: none;
-}
+} 
 
 h1 {
   background-color: aquamarine;
