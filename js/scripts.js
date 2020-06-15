@@ -6,6 +6,9 @@ $(document).ready(function() {
     const gender = $("select#gender").val();
     const age = parseInt($("input#age").val());
     const color = $("#color").val();
+    $("#Python").hide();
+    $("#Ruby").hide();
+    $("#JavaScript").hide();
 
     const result = favoritesubject;
     if (favoritesubject === 1) {
